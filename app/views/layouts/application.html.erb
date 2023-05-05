@@ -11,6 +11,16 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="container-fluid">
+        <%= link_to lists_path, class: "navbar-brand" do %>
+          <%= image_tag  "camera-logo.png" %>
+        <% end %>
+      </div>
+    </div>
+    <hr style="color:white; width:100%">
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

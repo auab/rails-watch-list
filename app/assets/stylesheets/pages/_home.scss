@@ -1,1 +1,25 @@
 // Specific CSS for your home-page
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #202020;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 25px;
+  height: 100%;
+}
+
+.navbar-brand{
+  display: flex;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+body{
+  background-color: #202020;
+}

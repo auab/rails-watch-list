@@ -1,0 +1,26 @@
+ul{
+  list-style-type: none;
+  color: white
+}
+
+h1{
+  color: white;
+}
+
+.main-poster{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  h1{
+    color: white;
+  }
+  h4 {
+    color: rgba($color: #ffffff, $alpha: 0.4)
+  }
+}
+
+.main-poster img{
+  height:90vh;
+}
