@@ -9,3 +9,20 @@
     color:  #242424;
   }
 }
+
+.create-list-button{
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  background-color: rgb(22, 22, 22);
+  border-radius: 10px;
+  border: 1px solid rgb(248, 248, 248);
+  padding: 5px;
+  &:hover{
+    background-color: white;
+    color:  #242424;
+  }
+}
+
+.button-center{
+  text-align: center;
+}

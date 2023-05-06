@@ -1,5 +1,14 @@
-<h1>New List</h1>
-<%= simple_form_for(@list) do |f| %>
-  <%= f.input :name ,label_html: { class: "form-text"}%>
-  <%= f.submit %>
-<% end %>
+<div class="row">
+  <div class="new-list-form col-12 col-lg-6">
+    <h1>New List</h1>
+    <%= simple_form_for(@list) do |f| %>
+      <%= f.input :name ,label_html: { class: "form-text"}%>
+      <div class='button-center mt-5'>
+      <%= f.submit class: 'create-list-button'%>
+      </div>
+    <% end %>
+  </div>
+  <div class="new-list-image col-lg-6">
+    <%= image_tag "projector.jpg" %>
+  </div>
+</div>
